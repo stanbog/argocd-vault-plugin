@@ -38,6 +38,7 @@ require (
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/viper v1.12.0
+	github.com/thycotic/tss-sdk-go v1.0.0
 	github.com/yandex-cloud/go-genproto v0.0.0-20220523093647-071bccd2b16c
 	github.com/yandex-cloud/go-sdk v0.0.0-20220511115426-9feb5f1ee87f
 	go.mongodb.org/mongo-driver v1.9.1 // indirect

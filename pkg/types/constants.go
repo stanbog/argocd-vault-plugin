@@ -23,29 +23,33 @@ const (
 	EnvYCLKeyID            = "AVP_YCL_KEY_ID"
 	EnvYCLServiceAccountID = "AVP_YCL_SERVICE_ACCOUNT_ID"
 	EnvYCLPrivateKey       = "AVP_YCL_PRIVATE_KEY"
+	EnvAvpThycoticURL      = "AVP_THYCOTIC_URL"
+	EnvAvpThycoticUser     = "AVP_THYCOTIC_USER"
+	EnvAvpThycoticPassword = "AVP_THYCOTIC_PASSWORD"
 
 	// Backend and Auth Constants
-	VaultBackend              = "vault"
-	IBMSecretsManagerbackend  = "ibmsecretsmanager"
-	AWSSecretsManagerbackend  = "awssecretsmanager"
-	GCPSecretManagerbackend   = "gcpsecretmanager"
-	AzureKeyVaultbackend      = "azurekeyvault"
-	Sopsbackend               = "sops"
-	YandexCloudLockboxbackend = "yandexcloudlockbox"
-	OnePasswordConnect        = "1passwordconnect"
-	K8sAuth                   = "k8s"
-	ApproleAuth               = "approle"
-	GithubAuth                = "github"
-	TokenAuth                 = "token"
-	IAMAuth                   = "iam"
-	AwsDefaultRegion          = "us-east-2"
-	GCPCurrentSecretVersion   = "latest"
-	IBMMaxRetries             = 3
-	IBMRetryIntervalSeconds   = 20
-	IBMMaxPerPage             = 200
-	IBMIAMCredentialsType     = "iam_credentials"
-	IBMImportedCertType       = "imported_cert"
-	IBMPublicCertType         = "public_cert"
+	VaultBackend                = "vault"
+	IBMSecretsManagerbackend    = "ibmsecretsmanager"
+	AWSSecretsManagerbackend    = "awssecretsmanager"
+	GCPSecretManagerbackend     = "gcpsecretmanager"
+	AzureKeyVaultbackend        = "azurekeyvault"
+	Sopsbackend                 = "sops"
+	YandexCloudLockboxbackend   = "yandexcloudlockbox"
+	OnePasswordConnect          = "1passwordconnect"
+	ThycoticSecretServerbackend = "thycoticsecretserver"
+	K8sAuth                     = "k8s"
+	ApproleAuth                 = "approle"
+	GithubAuth                  = "github"
+	TokenAuth                   = "token"
+	IAMAuth                     = "iam"
+	AwsDefaultRegion            = "us-east-2"
+	GCPCurrentSecretVersion     = "latest"
+	IBMMaxRetries               = 3
+	IBMRetryIntervalSeconds     = 20
+	IBMMaxPerPage               = 200
+	IBMIAMCredentialsType       = "iam_credentials"
+	IBMImportedCertType         = "imported_cert"
+	IBMPublicCertType           = "public_cert"
 
 	// Supported annotations
 	AVPPathAnnotation          = "avp.kubernetes.io/path"
