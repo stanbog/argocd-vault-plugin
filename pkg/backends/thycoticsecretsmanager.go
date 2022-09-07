@@ -24,6 +24,11 @@ func (a *ThycoticSecretServer) Login() error {
 	return nil
 }
 
+// comment 
+func (i *ThycoticSecretServer) GetIndividualSecret(kvpath, secretName, version string, annotations map[string]string) (interface{}, error) {
+	return nil, nil
+} 
+
 // GetSecrets gets secrets from Thycotic Secret Server and returns the formatted data
 // Currently there is no implementation present for versions nor annotations
 func (a *ThycoticSecretServer) GetSecrets(path string, version string, annotations map[string]string) (map[string]interface{}, error) {
