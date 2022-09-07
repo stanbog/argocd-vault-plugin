@@ -28,6 +28,7 @@ import (
 	ycsdk "github.com/yandex-cloud/go-sdk"
 	"github.com/yandex-cloud/go-sdk/iamkey"
 	sops "go.mozilla.org/sops/v3/decrypt"
+        thycoticsecretserver "github.com/thycotic/tss-sdk-go/server"
 )
 
 // Options options that can be passed to a Config struct
