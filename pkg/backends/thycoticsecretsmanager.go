@@ -25,7 +25,7 @@ func (a *ThycoticSecretServer) Login() error {
 }
 
 // comment 
-func (i *ThycoticSecretServer) GetIndividualSecret(kvpath, secretName, version string, annotations map[string]string) (interface{}, error) {
+func (a *ThycoticSecretServer) GetIndividualSecret(kvpath, secretName, version string, annotations map[string]string) (interface{}, error) {
 	return nil, nil
 } 
 
