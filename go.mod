@@ -6,6 +6,7 @@ replace (
 	github.com/googleapis/gnostic v0.5.7 => github.com/googleapis/gnostic v0.5.5
 	github.com/hashicorp/vault/api/auth/approle => github.com/hashicorp/vault/api/auth/approle v0.1.0
 	github.com/hashicorp/vault/api/auth/userpass => github.com/hashicorp/vault/api/auth/userpass v0.1.0
+	github.com/hashicorp/vault v1.10.3 => github.com/hashicorp/vault v1.10.3 remove-double-dots-in-the-filename
 )
 
 require (
