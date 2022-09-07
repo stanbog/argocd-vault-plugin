@@ -1,3 +1,4 @@
+dist/
 argocd-vault-plugin
 RELEASE_CHANGELOG.md
 bin
